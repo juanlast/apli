@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="json" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7776573c-8503-4d74-a9b1-8761763b509e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="AdaptadorJson1"/>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="iva" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="iva"/>
+		<fieldDescription><![CDATA[iva]]></fieldDescription>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nombre"/>
+		<fieldDescription><![CDATA[nombre]]></fieldDescription>
+	</field>
+	<field name="descripcion" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="descripcion"/>
+		<fieldDescription><![CDATA[descripcion]]></fieldDescription>
+	</field>
+	<field name="cantidad" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="cantidad"/>
+		<fieldDescription><![CDATA[cantidad]]></fieldDescription>
+	</field>
+	<field name="precioVenta" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="precioVenta"/>
+		<fieldDescription><![CDATA[precioVenta]]></fieldDescription>
+	</field>
+	<field name="comentarios" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="comentarios"/>
+		<fieldDescription><![CDATA[comentarios]]></fieldDescription>
+	</field>
+	<field name="total" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="total"/>
+		<fieldDescription><![CDATA[total]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="210" y="10" width="100" height="30" uuid="0c444014-85c6-43e1-8ddd-12ce77a1ef7b"/>
+				<text><![CDATA[JHONATHAN]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="7" splitType="Stretch"/>
+	</pageHeader>
+	<detail>
+		<band height="254" splitType="Stretch">
+			<subreport>
+				<reportElement x="30" y="10" width="520" height="200" uuid="7329c267-0f38-476e-92ba-018bbcb09c6f"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource($F{nombre})]]></dataSourceExpression>
+				<subreportExpression><![CDATA["detalle.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

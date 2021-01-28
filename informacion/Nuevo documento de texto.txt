@@ -1,0 +1,88 @@
+Cambiar permisos para borra carpetas (dirigirnos a la carpeta donde donde esta la carpeta a borra)
+	sudo chmod -R 777 electronicos
+
+Visual code Admin
+	sudo code --user-data-dir="~/.vscode-root"
+
+correr api	
+	npm run start:dev
+
+correr web
+	npm start
+
+Crear module, componets y servicios en angular
+	entrar a la carpeta principal/src/app
+	
+	crear module (electronicos module)
+		ng generate module /modules/electronicos
+		
+	crear component (crear dentro de la carpeta o modulo electronicos)
+		ng generate component /modules/electronicos/create
+		
+	crear service en nuestro modulo principal (entramos en la carpeta principal d enuestra raiz (electronicos))
+		ng generate service electronicos
+
+Crear modulo, controller y service en NestJS (Entrar a la carpeta principal/src y ahi creamos todos con el mismo nombre)
+
+	Crear module electronicos
+		nest g module electronicos
+		
+	Crear service module
+		nest generate service electronicos
+
+	Crear controlador
+		nest generate controller electronicos
+
+Crear rutas
+	configurar ruta hija 
+	configurar ruta padre
+	configurar index
+	importar los componentes en nuestro module principal
+	importar conponente que contiene la ruta en nuestro module principal
+	
+comandos git para clonar proyecto
+	
+	git clone git@gitlab.com:Pena_Saucedo/sifac_web.git
+	ssh-keygen -o -t rsa -b 4096 -C "email@example.com"
+	ssh-keygen -o -t rsa -b 4096 -C "zioncompucopy@gmail.com"
+	cat ~/.ssh/id_rsa.pub 
+	git clone git@gitlab.com:Pena_Saucedo/sifac_web.git
+	cd sifac_web/
+	composer install
+ 	git fetch origin jhonatan
+  	git checkout jhonatan
+ 	cd ..
+ 	cd sifac_web/
+	sudo chown usuario:usuario /home/usuario/ -R
+	git checkout jhonatan
+	git branch
+ 	composer install
+	sudo apt install php7.2-mbstring
+	composer install
+	cd webapp/
+	npm install
+	cd ..
+	mkdir -p config/jwt
+	openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096
+	Agregar passwors: empty
+	openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout
+	Agregar password : empty
+	vim .env
+	sudo apt install vim
+	vim .env
+	
+	
+	
+	add primary key cod a las tablas
+	
+	bInventario
+	lsCiudades
+	
+	
+	
+	
+	
+	
+	php -S 127.0.0.1:8000 -t public
+
+

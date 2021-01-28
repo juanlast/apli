@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"bringme.costos_envios"}],"uuid":"eb735de99c7f4a69af724dd1f3561ae9"}

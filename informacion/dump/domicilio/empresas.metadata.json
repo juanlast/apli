@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"bringme.empresas"}],"uuid":"474388897f714e299e9afbe9ec2b0bfd"}

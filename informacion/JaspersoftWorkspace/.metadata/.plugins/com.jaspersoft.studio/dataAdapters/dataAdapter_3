@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><MongoDbDataAdapter class="com.jaspersoft.mongodb.adapter.MongoDbDataAdapterImpl"><name>Mongo</name><mongoURI>mongodb://localhost:27017/admin</mongoURI><username>root</username><password>secret</password></MongoDbDataAdapter>

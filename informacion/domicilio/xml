@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MOROCHO AHOÑA MARTHA ISABEL</razonSocial>
+    <nombreComercial>ZION</nombreComercial>
+    <ruc>1400722128001</ruc>
+    <claveAcceso>2207202001140072212800110010020000000122007221219</claveAcceso>
+    <codDoc>001</codDoc>
+    <estab>001</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>005</secuencial>
+    <dirMatriz>Tarqui, Macas, Ecuador</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>22/07/2020</fechaEmision>
+    <dirEstablecimiento>Tarqui, Macas, Ecuador</dirEstablecimiento>
+    <obligadoContabilidad>No</obligadoContabilidad>
+    <tipoIdentificacionComprador>1400730105</tipoIdentificacionComprador>
+    <razonSocialComprador>MEJIA ABAD JHONATAN JAVIER</razonSocialComprador>
+    <totalSinImpuestos>1326.3</totalSinImpuestos>
+    <totalDescuento>0</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>1326.3</baseImponible>
+        <valor>85.2</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>1411.5</importeTotal>
+    <moneda>Dolar</moneda>
+    <pagos>
+      <pago>
+        <formaPago>Efectivo</formaPago>
+        <total>1411.5</total>
+        <plazo>0</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>CPU CORE I 7 </codigoPrincipal>
+      <descripcion>CPU CORE I 7 </descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>700</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>616</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>616</baseImponible>
+          <valor>84</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>TECLADO USB</codigoPrincipal>
+      <descripcion>TECLADO USB</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>10</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>8.8</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>8.8</baseImponible>
+          <valor>1.2</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+</factura>

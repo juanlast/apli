@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="detalle" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dd4c94e3-4dbf-46a5-a02b-599966acff9b">
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="nombre" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="19" y="46" width="281" height="30" uuid="03c8c65e-a2d2-4c31-aab7-a7ac893136a4"/>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-81" y="46" width="100" height="30" uuid="fd45849c-844d-44b7-8be0-64f44a42d971"/>
+				<text><![CDATA[nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="10" width="100" height="30" uuid="452fd985-4a87-49fd-9477-2f298ce48bd6"/>
+				<text><![CDATA[Nombre]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

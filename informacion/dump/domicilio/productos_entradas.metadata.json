@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"bringme.productos_entradas"}],"uuid":"c99727e6dd224e889e836876f832bfd0"}
